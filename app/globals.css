@@ -1,0 +1,29 @@
+@import 'tailwindcss';
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Định nghĩa custom variant cho dark mode */
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+:root {
+    --color-primary: #1f2937;
+    --color-background: #ffffff;
+    --color-text: #1f2937;
+}
+
+:root[data-theme='dark'] {
+    --color-primary: #4b5563;
+    --color-background: #0d2438;
+    --color-text: #ffffff;
+}
+
+html {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body {
+    background-color: var(--color-background);
+    color: var(--color-text);
+}
