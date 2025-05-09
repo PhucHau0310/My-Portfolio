@@ -4,8 +4,27 @@ import personnelMagagement from '@/public/personnel-management.png';
 import gameCaro from '@/public/game-caro.png';
 import myStore from '@/public/my-store.png';
 import apiLayer from '@/public/apilayer.png';
+import micro from '@/public/microservices.png';
 
 export const repositories = [
+    {
+        projectName: 'Microservices E-Commerce',
+        technologies: [
+            'C#',
+            'ASP.NET Core API',
+            'Docker',
+            'RabbitMQ',
+            'Redis',
+            'Ocelot',
+            'ELK Stack',
+            'Prometheus',
+            'Grafana',
+        ],
+        description:
+            'The Microservices E-Commerce project is an e-commerce system built on a microservices architecture.',
+        githubLink: 'https://github.com/PhucHau0310/MicroservicesECommerce',
+        thumbnail: micro.src,
+    },
     {
         projectName: 'VN License Plate Recognition',
         technologies: [
