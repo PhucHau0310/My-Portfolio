@@ -5,8 +5,27 @@ import gameCaro from '@/public/game-caro.png';
 import myStore from '@/public/my-store.png';
 import apiLayer from '@/public/apilayer.png';
 import micro from '@/public/microservices.png';
+import movieTicket from '@/public/dashboard.png';
 
 export const repositories = [
+    {
+        projectName: 'Movie Ticket System',
+        technologies: [
+            'C#',
+            'Windows Forms',
+            'Python',
+            'FastAPI',
+            'PostgreSQL',
+            'SQLAlchemy',
+            'Alembic',
+            'Pinecone',
+            'Docker',
+        ],
+        description:
+            'A full-stack movie ticket booking system with FastAPI backend , Windows Forms frontend and Integrate embeddings, vectordb.',
+        githubLink: 'https://github.com/PhucHau0310/Movie-Ticket-System',
+        thumbnail: movieTicket.src,
+    },
     {
         projectName: 'Microservices E-Commerce',
         technologies: [
