@@ -6,8 +6,27 @@ import myStore from '@/public/my-store.png';
 import apiLayer from '@/public/apilayer.png';
 import micro from '@/public/microservices.png';
 import movieTicket from '@/public/dashboard.png';
+import emotionAnalyze from '@/public/result_analyze.png';
 
 export const repositories = [
+    {
+        projectName: 'Emotion Analysis for Vietnamese Text',
+        technologies: [
+            'Python',
+            'TypeScript',
+            'PhoBERT',
+            'Transformers',
+            'FastAPI',
+            'Docker',
+            'NextAuth',
+            'scikit-learn',
+            'matplotlib',
+        ],
+        description:
+            'This project implements a deep learning model for emotion analysis in Vietnamese text, with both training pipeline and API endpoints for real-world applications.',
+        githubLink: 'https://github.com/PhucHau0310/Emotion-Analysis',
+        thumbnail: emotionAnalyze.src,
+    },
     {
         projectName: 'Movie Ticket System',
         technologies: [
