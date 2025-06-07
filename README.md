@@ -1,10 +1,8 @@
-# My Portfolio Website
-
-## Overview
+# 🚀 My Portfolio Website
 
 A personal portfolio website built to showcase my projects, skills, and professional experience.
 
-## Technologies Used
+## 🛠 Technologies Used
 
 ### Programming Languages
 
@@ -31,7 +29,7 @@ A personal portfolio website built to showcase my projects, skills, and professi
 -   Docker
 -   Git
 
-## Features
+## ✨ Features
 
 -   Responsive design
 -   Project showcase
@@ -40,22 +38,25 @@ A personal portfolio website built to showcase my projects, skills, and professi
 -   Resume/CV download
 -   Interactive UI elements
 
-## Installation & Setup
+## 📦 Installation & Setup
 
 1. Clone the repository
 
 ```bash
 git clone https://github.com/PhucHau0310/My-Portfolio
+cd root project
+npm run dev
 ```
 
-## Live Demo
+## 📛 Live Demo
 
 https://my-portfolio.hau.io.vn
 
-## Contact
+## 📞 Contact
 
-Nguyễn Phúc Hậu - haunhpr024@gmail.com
+-   Nguyễn Phúc Hậu (initial work)
+-   Email: haunhpr024@gmail.com
 
-## License
+## 📜 License
 
 This project is licensed under the MIT License - see the LICENSE file for details

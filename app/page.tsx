@@ -3,6 +3,7 @@
 import { repositories } from '@/constants/repos-github';
 import developerImg from '@/public/developer.svg';
 import avatar from '@/public/hau.jpg';
+import avatar2 from '@/public/hau-2.png';
 import githubIcon from '@/public/github.svg';
 import gmailIcon from '@/public/gmail.svg';
 import linkedin from '@/public/linkedin.svg';
@@ -53,7 +54,7 @@ export default function Home() {
                     </p>
                     <div className="mt-6 md:mt-8 flex justify-center md:justify-start">
                         <a
-                            href="/NguyenPhucHau-CV.pdf"
+                            href="/NguyenPhucHau-CV-2.pdf"
                             download
                             className="px-4 py-2 md:px-5 md:py-3 border border-[#c7d2fe] rounded-lg bg-[#EEF2FF] text-[#6b7280] cursor-pointer hover:text-white transition-all hover:bg-[#4F46E5] duration-300"
                         >
@@ -185,7 +186,7 @@ export default function Home() {
                     }}
                 >
                     <img
-                        src={avatar.src}
+                        src={avatar2.src}
                         alt="developer"
                         className="w-24 h-24 md:w-32 md:h-32 lg:w-36 lg:h-36 rounded-full object-cover"
                     />
